@@ -12,24 +12,24 @@
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
   
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body background="background.jpg">
 <center>
-<h3 class="btn btn-primary" id="heading">AI Object Finder
-<br>
-<p>Input the name which you will give should match the name present in COCOSSD model then only it will detect</p>
-</h3>
-<br>
-<h3>Object Name:</h3>
-<br>
-<input id="input">
+<h3 class="btn btn-warning heading">AI Video Surveillance</h3>
 <br><br>
-<button onclick="start();" class="btn btn-danger">Start</button>
+<button onclick="start();" id="start"  class="btn btn-danger">START</button>
 <br>
-<h3 id="status" class="btn btn-primary">Status:</h3>
-<h3 class="btn btn-primary search-status">Detected [T/F]:</h3>
+<h3 id="status" class="btn btn-success">Status: </h3>
+<br>
+<h3 id="num_of_obj" class="btn btn-success">Number Of Objects: </h3>
 </center>
+
+<div class="copy_right_footer">Devoloped By:-- Tapishnu Dey</div>
 
 <script src="main.js"></script>
 
